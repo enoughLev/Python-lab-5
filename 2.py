@@ -4,4 +4,5 @@ def factorials(n):
         factor *= i
         yield factor
 
+
 print(*factorials(5))

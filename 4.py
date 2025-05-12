@@ -6,6 +6,7 @@ def dictionary(lang):
         for letter in range(65, 91):
             yield chr(letter)
 
+
 print(*dictionary("rus"))
 print(*dictionary("eng"))
 print('\U0001F44D')

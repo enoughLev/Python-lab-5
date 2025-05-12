@@ -12,7 +12,7 @@ def ask_password(login, password, success, failure):
     login_vowels, login_consonants = split_chars(login)
     password_vowels, password_consonants = split_chars(password)
 
-    vowels_correct =(len(password_vowels) == 3)
+    vowels_correct = (len(password_vowels) == 3)
     consonants_correct = (password_consonants == login_consonants)
 
     if vowels_correct and consonants_correct:
@@ -36,8 +36,7 @@ def main(login, password):
 
     ask_password(login, password, on_success, on_failure)
 
+
 main("login", "aaalgn")
 main("", "")
-main("anaconda", "neconad")                                                                                                                                                         #я чуть не умер от такого задания
-
-
+main("anaconda", "neconad")  # я чуть не умер от такого задания

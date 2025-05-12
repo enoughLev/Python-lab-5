@@ -9,9 +9,11 @@ for _ in range(n):
     x, y = map(int, input().split())
     points.append((x, y))
 
+
 def distance(point):
     x, y = point
-    return math.sqrt(x*x + y*y)
+    return math.sqrt(x * x + y * y)
+
 
 points_sorted = sorted(points, key=lambda p: (distance(p), p[0], p[1]))
 

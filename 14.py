@@ -18,4 +18,4 @@ capitalized_words.sort(key=lambda x: x[1])
 for idx, w in capitalized_words:
     print(idx, '-', w)
 
-#точки в конце слов, начинающихся с большой буквы не ставим!
+# точки в конце слов, начинающихся с большой буквы не ставим!

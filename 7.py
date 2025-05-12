@@ -4,6 +4,7 @@ def same_by(characteristic, objects):
     first_value = characteristic(objects[0])
     return all(characteristic(obj) == first_value for obj in objects)
 
+
 values = [1, 3, 11, 7]
 val_1 = [2, 4, 6, 10, 0]
 

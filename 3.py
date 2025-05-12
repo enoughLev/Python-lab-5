@@ -4,4 +4,5 @@ def square_fibonacci(n):
         yield b * b
         a, b = b, a + b
 
+
 print(*square_fibonacci(5))
